@@ -3,20 +3,20 @@ var images = [];
 var time = 3000;	// thoi gian
 	 
 // danh sach hinh
-images[0] = src="../images/g1.jpg"; 
-images[1] = src="../images/g2.jpg";
-images[2] = src="../images/g3.jpg"; 
-images[3] = src="../images/g1.jpg";
-images[4] = src="../images/g2.jpg"; 
-images[5] = src="../images/g3.jpg";
-images[6] = src="../images/g1.jpg"; 
-images[7] = src="../images/g2.jpg";
-images[8] = src="../images/g3.jpg"; 
-images[9] = src="../images/g1.jpg";
-images[10] = src="../images/g2.jpg";
-images[11] = src="../images/g3.jpg";
-images[12] = src="../images/g1.jpg"; 
-images[13] = src="../images/g2.jpg";
+images[0] = src="./images/g1.jpg"; 
+images[1] = src="./images/g2.jpg";
+images[2] = src="./images/g3.jpg"; 
+images[3] = src="./images/g1.jpg";
+images[4] = src="./images/g2.jpg"; 
+images[5] = src="./images/g3.jpg";
+images[6] = src="./images/g1.jpg"; 
+images[7] = src="./images/g2.jpg";
+images[8] = src="./images/g3.jpg"; 
+images[9] = src="./images/g1.jpg";
+images[10] = src="./images/g2.jpg";
+images[11] = src="./images/g3.jpg";
+images[12] = src="./images/g1.jpg"; 
+images[13] = src="./images/g2.jpg";
 
 
 // doi hinh
