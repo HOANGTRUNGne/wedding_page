@@ -1,0 +1,381 @@
+/* font */
+@font-face {
+	font-display: block;
+    font-family:"Didot-W01-Italic";
+	src:url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/9c2cfd19-472b-4ef5-ad73-43eee68dc43b.eot?#iefix");
+    src:url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/9c2cfd19-472b-4ef5-ad73-43eee68dc43b.eot?#iefix") format("eot"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/abe3d3a9-c990-459f-9407-54ac96cd2f00.woff2") format("woff2"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/09a4b57b-7400-4d30-b4ba-d6e303c57868.woff") format("woff"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/a0cb08d5-975f-4c8d-bcdc-d771a014d92a.ttf") format("truetype"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/86d60a09-e8f8-4003-b688-0f8a2aba6532.svg#86d60a09-e8f8-4003-b688-0f8a2aba6532") format("svg");
+}
+
+@font-face {
+    font-display: block;
+    font-family:"Brandon-Grot-W01-Light";
+    src:url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/e00ba30a-0bf3-4c76-9392-8641fa237a92.eot?#iefix");
+    src:url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/e00ba30a-0bf3-4c76-9392-8641fa237a92.eot?#iefix") format("eot"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/69b40392-453a-438a-a121-a49e5fbc9213.woff2") format("woff2"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/9362bca5-b362-4543-a051-2129e2def911.woff") format("woff"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/85060878-ca6c-43cc-ac31-7edccfdca71b.ttf") format("truetype"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/47f089a6-c8ce-46fa-b98f-03b8c0619d8a.svg#47f089a6-c8ce-46fa-b98f-03b8c0619d8a") format("svg");
+}
+
+@font-face{
+    font-family:"Didot-W05-Italic";
+    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Linotype_Didot/v1/DidotLTW05-Italic.woff2") format("woff2"),
+    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Linotype_Didot/v1/DidotLTW05-Italic.woff") format("woff");
+}
+@font-face {
+    font-display: block;
+    font-family:"Avenir-LT-W01_35-Light1475496";
+    src:url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/edefe737-dc78-4aa3-ad03-3c6f908330ed.eot?#iefix");
+    src:url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/edefe737-dc78-4aa3-ad03-3c6f908330ed.eot?#iefix") format("eot"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/0078f486-8e52-42c0-ad81-3c8d3d43f48e.woff2") format("woff2"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/908c4810-64db-4b46-bb8e-823eb41f68c0.woff") format("woff"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/4577388c-510f-4366-addb-8b663bcc762a.ttf") format("truetype"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/b0268c31-e450-4159-bfea-e0d20e2b5c0c.svg#b0268c31-e450-4159-bfea-e0d20e2b5c0c") format("svg");
+}
+@font-face {
+    font-family: "Avenir-LT-W05_35-Light";
+    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Avenir_Family_Pack/v1/AvenirLTW05-35Light.woff2") format("woff2"),
+    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Avenir_Family_Pack/v1/AvenirLTW05-35Light.woff") format("woff");
+}
+@font-face {
+    font-display: block;
+    font-family:"Avenir-LT-W01_85-Heavy1475544";
+    src:url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/6af9989e-235b-4c75-8c08-a83bdaef3f66.eot?#iefix");
+    src:url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/6af9989e-235b-4c75-8c08-a83bdaef3f66.eot?#iefix") format("eot"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/d513e15e-8f35-4129-ad05-481815e52625.woff2") format("woff2"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/61bd362e-7162-46bd-b67e-28f366c4afbe.woff") format("woff"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/ccd17c6b-e7ed-4b73-b0d2-76712a4ef46b.ttf") format("truetype"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/20577853-40a7-4ada-a3fb-dd6e9392f401.svg#20577853-40a7-4ada-a3fb-dd6e9392f401") format("svg");
+}
+@font-face {
+    font-family: "Avenir-LT-W05_85-Heavy";
+    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Avenir_Family_Pack/v1/AvenirLTW05-85Heavy.woff2") format("woff2"),
+    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Avenir_Family_Pack/v1/AvenirLTW05-85Heavy.woff") format("woff");
+}
+@font-face{
+    font-family:"Brandon-Grot-W05-Light";
+    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/BrandonGrot/v1/BrandonGrotesqueCondW05-Lt.woff2") format("woff2"),
+    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/BrandonGrot/v1/BrandonGrotesqueCondW05-Lt.woff") format("woff");
+}
+@font-face {
+    font-display: block;
+    font-family: "DIN-Next-W01-Light";
+    src: url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/3e0b2cd7-9657-438b-b4af-e04122e8f1f7.eot?#iefix");
+    src: url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/3e0b2cd7-9657-438b-b4af-e04122e8f1f7.eot?#iefix") format("eot"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/bc176270-17fa-4c78-a343-9fe52824e501.woff") format("woff"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/3516f91d-ac48-42cd-acfe-1be691152cc4.ttf") format("truetype"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/d1b1e866-a411-42ba-8f75-72bf28e23694.svg#d1b1e866-a411-42ba-8f75-72bf28e23694") format("svg");
+}
+@font-face {
+    font-display: block;
+    font-family: "DIN-Next-W02-Light";
+    src: url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/48e5a0e1-2d56-46e5-8fc4-3d6d5c973cbf.eot?#iefix");
+    src: url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/48e5a0e1-2d56-46e5-8fc4-3d6d5c973cbf.eot?#iefix") format("eot"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/07d62b21-8d7a-4c36-be86-d32ab1089972.woff") format("woff"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/c0050890-bbed-44b9-94df-2611d72dbb06.ttf") format("truetype"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/9f774d17-c03a-418e-a375-34f3beecbc7a.svg#9f774d17-c03a-418e-a375-34f3beecbc7a") format("svg");
+}
+@font-face {
+    font-display: block;
+    font-family: "DIN-Next-W10-Light";
+    src: url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/3d009cd7-c8fe-40c0-93da-74f4ea8c530b.eot?#iefix");
+    src: url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/3d009cd7-c8fe-40c0-93da-74f4ea8c530b.eot?#iefix") format("eot"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/a9e95a29-98a7-404a-90ee-1929ad09c696.woff") format("woff"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/0a7663fd-eae8-4e50-a67a-225271f8cceb.ttf") format("truetype"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/58ae9be9-5d95-44b6-8b6c-e6da6a46822c.svg#58ae9be9-5d95-44b6-8b6c-e6da6a46822c") format("svg");
+}
+.font_0{
+	font-family:  Brandon-Grot-W01-Light,Brandon-Grot-W05-Light,sans-serif;
+	font-style: normal;
+	font-weight: lighter;
+}
+.font_5{
+	font-family:Brandon-Grot-W01-Light,brandon-grot-w05-light,sans-serif;
+	font-style: normal;
+	font-weight: lighter;
+}
+.font_6{
+	font-family:  Didot-W01-Italic,Didot-W05-Italic,serif;
+	font-weight: lighter;
+	font-style: normal;
+}
+.font_7{
+	font-family:    didot-w01-italic,didot-w05-italic,serif;
+	font-style: normal;
+	
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+/* menu */
+ul,li,a 
+{ 
+ display:block; 
+ margin:0; 
+ padding:0; 
+ border:0; 
+} 
+ul 
+{ 
+ width:150px; 
+ border:0px hidden #9d9da1; 
+z-index: 5;
+ list-style:none; 
+ position: fixed;
+ top: 20%;
+ left: 10%;
+ transform: translate(-70%, -50%);
+
+ 
+ margin-block-start: 1em;
+ margin-block-end: 1em;
+ margin-inline-start: 0px;
+ margin-inline-end: 0px;
+ padding-inline-start: 40px;
+
+} 
+li 
+{ 
+ position:relative; 
+ padding:1px; 
+ padding-left:26px; 
+ background: no-repeat; 
+ z-index:9; 
+
+} 
+a { 
+ padding:2px; 
+ text-decoration:none; 
+ color:black; 
+ font-weight: 100;
+ width:100%; 
+ font-family:didot-w01-italic,serif;
+ line-height:2em;
+} 
+a:hover 
+{ 
+ border-color: rgb(241, 64, 132); 
+ background-color:none; 
+ color:rgb(241, 64, 132); 
+} 
+
+
+
+/* .fixed-element {
+	position: fixed;
+	right: 0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+} */
+
+.khung{
+	max-width: 100%;
+	
+
+}
+
+.parallax-window{
+    height: 525px;
+    background: transparent;
+	
+}
+
+	
+
+.head1{
+	position: absolute;
+	top: 15%;
+	left: 50%;
+	transform: translateX(-45%);
+	color: #2F2E2E;
+	
+}
+
+#C_1
+{
+	width:100%;
+	height:700px;
+	float:left;
+    text-align: center;
+	background-color:#F7E9E8;
+    padding-top: 120px;   
+	margin-right: 10%;
+	
+}
+
+.slideshow-container{
+	position: relative;
+	top: 100px;
+	left: 20%;
+	box-sizing: content-box;
+	width: 1000px;
+	height: 600px;
+} 
+
+/*nut trai  */
+.prev{
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	font-weight: bold;
+	font-size: 35px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	z-index: 1;
+  }
+/* nut phai */
+.next {
+
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	left: 95%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	font-weight: bold;
+	font-size: 35px;
+	border-radius: 0 3px 3px 0;	
+	transition: 0.6s ease;
+	
+  }
+  .prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+  }
+  
+
+
+
+.second-header {
+    color:#000000;
+    font-family: brandon-grot-w01-light,sans-serif;
+	font-weight: lighter;
+    font-size: 35px;
+	font-style: normal;
+   }
+
+
+
+    
+.C_2
+{
+	width:100%;
+	height:1000px;
+	float:left;
+	background-color: white;    
+  
+}
+
+/*layout C_2*/
+#C_2L{
+	width: 50%;
+	height: 1150px;
+	position: relative;
+	top: 400px;
+	left: 400px;
+	float: left;
+}
+.C_2L2{
+	letter-spacing: 1.25em;
+	font-size: 25px;
+	font-family: brandon-grot-w01-light,sans-serif;
+	position: absolute;
+	top: 50px;
+	left: -20px;
+	z-index: 2;
+}
+
+#C_2R{
+	width: 50%;
+	height: 1150px;
+	float: left;
+	position: relative;
+	top: 380px;
+	
+	
+	
+	
+}
+
+.C_2W2{
+	color: #E3C5C1;
+	letter-spacing: 0.2em;
+	font-size: 23px;
+	line-height: 1.5em;
+ }
+
+
+.C_3
+{
+	width:100%;
+	height:250px;
+	float:left;
+    text-align: center;
+	background-color:#F7E9E8;
+     }
+
+#C_5
+{
+	width: 100%;
+	height:750px;
+	float:left;	 
+	
+	
+	
+}
+
+
+#C_4
+	 {
+		 width:100%;
+		 height:600px;
+		 float:left;
+		 text-align: center;
+		 background-color:white;
+		 padding-top: 100px; 
+		}	 
+.C4_layout {
+			margin-top: 36px;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+		}
+.C4_item {
+			padding: 12px 16px;
+			margin-top: 16px;
+			flex-basis: 30%;
+		}
+		
+
+.text4{
+	padding-top: 50px;
+	line-height: 2em;
+	text-align: center;
+}
+.logo4{
+	margin-left: 20px;
+}
+
+
+
+
+form .button{
+	height: 45px;
+	margin: 45px 0;
+}
+form .button input{
+	height: 100%;
+	width: 300px;
+	outline: none;
+	color: #fff;
+	border: none;
+	font-size: 20px;
+	font-weight: 300;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	background: linear-gradient(130deg, #71b7e6, #FFC0CB );
+} 
+form .button input:hover{
+	background: linear-gradient(130deg, #71b7e6, #FFC0CB );}
+
+#footer
+{
+	width:100%;
+	height:100px;
+	clear:both;
+	background-color:#FFC0CB;
+	text-align:center;
+	padding-top:10px;
+}
+ .footerr{
+	letter-spacing:5px;
+}
